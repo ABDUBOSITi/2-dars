@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 40px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 0, 0);
+  z-index: 2;
+}
+
+.flex {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+
+.logo_img img {
+  max-width: 120px;
+}
+
+.btn {
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #2bd0d0;
+  border: 2px solid #2bd0d0;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #2bd0d0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.sinf {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+}
+
+.sinf a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+nav {
+  height: 45%;
+  padding: 160px 160px 250px;
+  display: flex;
+  align-items: center;
+  background-image: url(./pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about h1 {
+  padding-top: 140px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #34313d;
+  width: 610px;
+}
+
+.about p {
+  padding-top: 5px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #34313d;
+  width: 520px;
+}
+
+.button {
+  padding: 15px 40px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(18, 65, 107);
+  color: #fff;
+  margin-top: 38px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.button:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: none;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.img {
+  max-width: 600px;
+  position: absolute;
+  right: 0;
+  top: 27%;
+}
+
+.img img {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background-color: #4b3f6b;
+  position: absolute;
+  top: -300px;
+  margin: 13%;
+
+}
+
+form input {
+  width: 769px;
+  padding: 16px 40px 16px;
+  border: none;
+  margin: 52px 24px 52px 64px;
+  outline: none;
+  border-radius: 10px;
+}
+
+form .xayr {
+  color: #fff;
+  background-color: rgb(18, 65, 107);
+  padding: 16px 42px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  transition: 0.6s;
+  margin-right: 65px;
+}
+
+form .xayr:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+input::placeholder {
+  color: #34313d;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.kim {
+  position: relative;
+}
+
+section {
+  padding-top: 100px;
+  background-color: brown;
+  height: 300px;
+}
+
+section h1 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0 544px;
+}
+
+section .item {
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  padding: 15px 40px;
+  background-color: rgb(18, 65, 107);
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.6s;
+  margin: 15px 650px 6px;
+}
+
+section .item:hover {
+  cursor: pointer;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 50px 160px;
+  background-color: #232127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxs {
+  display: flex;
+  gap: 24px;
+}
+
+.logo.img {
+  max-width: 120px;
+}
+
+.logo.img img {
+  width: 100%;
+}
+
+.sinf_ {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.sinf_ a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
